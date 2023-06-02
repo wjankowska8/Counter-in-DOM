@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Document</title>
+</head>
+
+<body>
+    <div class ="counter-1"></div>
+    <div class ="counter-2"></div>
+
+    <script src="./script.js"></script>
+
+    <script>
+        const counter1 = new Counter ('.counter-1')
+        counter1.init()
+        const counter2 = new Counter ('.counter-2')
+        counter2.init()
+        counter2.inc()
+        counter2.inc()
+    </script>
+</body>
+
+</html>
